@@ -21,3 +21,8 @@ This file tracks all modifications, enhancements, testing records, and releases 
 - Implemented [SalesforceAPI.bas](file:///c:/Users/703134581/projects/PKCE%20Connector%20%20Salesforce/src/SalesforceAPI.bas): Added core REST API executor supporting GET/POST/PATCH methods, custom authorization headers, and SOQL query helper function.
 - Implemented [OAuthDemo.bas](file:///c:/Users/703134581/projects/PKCE%20Connector%20%20Salesforce/src/OAuthDemo.bas): Created example Excel macros for initiating PKCE flow, extracting tokens, and running a test SOQL query.
 - Implemented [VBA_Tests.bas](file:///c:/Users/703134581/projects/PKCE%20Connector%20%20Salesforce/src/VBA_Tests.bas): Built custom test suite verifying correct outputs for SHA-256 (via test vectors), Base64URL, code verifier generation, and recursive JSON parsing.
+
+### [2026-07-14] Repository Deployment & Integration Guide
+- Created [VBA_Integration_Guide.md](file:///c:/Users/703134581/projects/PKCE%20Connector%20%20Salesforce/docs/VBA_Integration_Guide.md) providing step-by-step instructions on importing modules and compiling an Excel Add-In (.xlam).
+- Pushed local repository to GitHub: `https://github.com/anoopverma/PKCESalesforce`.
+- Configured git to track upstream remote branch `origin/main` successfully.
